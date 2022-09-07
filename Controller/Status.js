@@ -3,7 +3,7 @@ const Status = require("../models/Status");
 const GetStatus = async (req, res) => {
     Statuss = await Status.find();
   console.log(Statuss);
-  //for the id sent
+
   res.send(Statuss);
 };
 
